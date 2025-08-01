@@ -10,7 +10,7 @@ public class HumanPlayerStrategies implements PlayerStrategy {
     private Scanner inp;
     private String playerName;
     
-    HumanPlayerStrategies(String playerName) {
+    public HumanPlayerStrategies(String playerName) {
         this.playerName = playerName;
         this.inp = new Scanner(System.in);
     }

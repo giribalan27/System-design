@@ -12,7 +12,7 @@ public class Player {
         this.symbol = symbol;
         this.playerStrategy = playerStrategy;
     }
-    public Symbol getSumbol() {
+    public Symbol getSymbol() {
         return symbol;
     }
 
