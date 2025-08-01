@@ -17,6 +17,6 @@ public class XTurnState implements GameState {
 
     @Override
     public boolean isGameOver() {
-        return true;
+        return false;
     }
 }
